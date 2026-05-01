@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerCoach AI — Your Socially Intelligent Digital Career Coach</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style_professional.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="CareerCoach AI home">
+        <span class="logo-mark">C</span>
+        CareerCoach <span>AI</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#try">Try Sarah</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-padding">
+      <div class="hero-bg-orb orb-one"></div>
+      <div class="hero-bg-orb orb-two"></div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">AI-powered employability support</p>
+          <h1>Meet <span>Sarah</span>, your socially intelligent digital career coach.</h1>
+          <p class="subheadline">
+            Practise interviews, strengthen your CV, and receive personalised guidance designed to help you move towards your career goals with confidence.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-btn" onclick="scrollToTrySarah()">Start Talking to Sarah</button>
+            <a class="secondary-btn" href="#features">Explore Features</a>
+          </div>
+          <div class="hero-stats" aria-label="CareerCoach AI highlights">
+            <div>
+              <strong>24/7</strong>
+              <span>Practice support</span>
+            </div>
+            <div>
+              <strong>AI</strong>
+              <span>Adaptive feedback</span>
+            </div>
+            <div>
+              <strong>Student</strong>
+              <span>Career focused</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card-header">
+            <span class="status-dot"></span>
+            <span>Sarah is ready to coach</span>
+          </div>
+          <div class="iframe-container hero-iframe">
+            <iframe src="https://embed.liveavatar.com/v1/9e87e354-60e6-40e4-825b-986788fa3016?orientation=horizontal" allow="microphone" title="LiveAvatar Sarah career coach"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="container intro-panel">
+        <p>
+          Sarah, the CareerCoach AI digital human, helps students prepare for real-world opportunities through interactive mock interviews, CV refinement, personalised feedback, and confidence-building support. She adapts to your goals and provides constructive, actionable advice.
+        </p>
+      </div>
+    </section>
+
+    <section class="video-section section-padding-sm">
+      <div class="container media-card">
+        <div class="section-heading left">
+          <p class="eyebrow">See the experience</p>
+          <h2>Career coaching that feels more human</h2>
+          <p>Watch the demo, then try Sarah yourself using the interactive digital human experience.</p>
+        </div>
+        <div class="media video-frame">
+          <video src="sara.mp4" controls autoplay muted playsinline></video>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Features</p>
+          <h2>What Sarah can do</h2>
+          <p>Practical, supportive tools to help students prepare for applications, interviews, and career planning.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-item accent-blue">
+            <div class="feature-icon"><img src="icons/interview.svg" alt=""></div>
+            <h3>Interactive Mock Interviews</h3>
+            <p>Adaptive questions based on your responses and goals for realistic interview preparation.</p>
+          </article>
+          <article class="feature-item accent-purple">
+            <div class="feature-icon"><img src="icons/feedback.svg" alt=""></div>
+            <h3>Personalised Feedback</h3>
+            <p>Receive practical insights on strengths, improvement areas, and clear next steps.</p>
+          </article>
+          <article class="feature-item accent-pink">
+            <div class="feature-icon"><img src="icons/cv.svg" alt=""></div>
+            <h3>Smart CV & LinkedIn Optimisation</h3>
+            <p>AI-based CV review aligned with the roles and industries you are targeting.</p>
+          </article>
+          <article class="feature-item accent-orange">
+            <div class="feature-icon"><img src="icons/strategy.svg" alt=""></div>
+            <h3>Tailored Job Search Strategies</h3>
+            <p>Guidance on planning, networking, and applying strategically.</p>
+          </article>
+          <article class="feature-item accent-green">
+            <div class="feature-icon"><img src="icons/support.svg" alt=""></div>
+            <h3>Confidence & Emotional Support</h3>
+            <p>Encouragement and motivation throughout your employability journey.</p>
+          </article>
+          <article class="feature-item accent-cyan">
+            <div class="feature-icon"><img src="icons/international.svg" alt=""></div>
+            <h3>Guidance for International Students</h3>
+            <p>Explore career options and address visa-related challenges with confidence.</p>
+          </article>
+          <article class="feature-item accent-yellow">
+            <div class="feature-icon"><img src="icons/progress.svg" alt=""></div>
+            <h3>Progress Tracking</h3>
+            <p>Reflect on your journey and see your growth through automated summaries.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+      <div class="container about-card">
+        <div class="avatar-wrap">
+          <img src="images/sarah-avatar.jpg" alt="Sarah Avatar" class="about-img">
+        </div>
+        <div>
+          <p class="eyebrow">About the project</p>
+          <h2>Designed to bridge the gap between career services and real-world preparation</h2>
+          <p>
+            CareerCoach AI was developed as part of the MN5814: Emerging Technologies in Business coursework at Royal Holloway, University of London. The project explores how socially intelligent digital humans can enhance employability training and support student confidence.
+          </p>
+          <p class="bio">
+            Developed by <strong>[Your Name]</strong>, MSc Student at Royal Holloway, passionate about human-centred AI and student empowerment through emerging technologies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="try" class="try section-padding">
+      <div class="container try-layout">
+        <div>
+          <p class="eyebrow">Try Sarah</p>
+          <h2>Start a coaching conversation</h2>
+          <p>Use the steps below to begin your session and make the most of Sarah’s feedback.</p>
+          <ol class="tips">
+            <li><span>1</span>Allow microphone access.</li>
+            <li><span>2</span>Introduce yourself to Sarah.</li>
+            <li><span>3</span>Choose your interview area or topic.</li>
+            <li><span>4</span>Receive adaptive feedback and next-step suggestions.</li>
+          </ol>
+          <p class="note">Sarah learns from each session — come back and see your progress evolve.</p>
+        </div>
+        <div class="iframe-container try-iframe">
+          <iframe src="https://embed.liveavatar.com/v1/9e87e354-60e6-40e4-825b-986788fa3016?orientation=horizontal" allow="microphone" title="Try CareerCoach AI Sarah"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="feedback" class="feedback section-padding">
+      <div class="container feedback-card">
+        <div class="section-heading">
+          <p class="eyebrow">Feedback</p>
+          <h2>Share your experience</h2>
+          <p>Help refine Sarah and shape the future of digital career coaching.</p>
+        </div>
+        <form class="feedback-form">
+          <label>
+            <span>Your Name</span>
+            <input type="text" name="name" placeholder="Enter your name" required>
+          </label>
+          <label>
+            <span>Your Email</span>
+            <input type="email" name="email" placeholder="Enter your email" required>
+          </label>
+          <label>
+            <span>Your Comments</span>
+            <textarea name="comments" placeholder="Tell us what worked well and what could improve"></textarea>
+          </label>
+          <button class="primary-btn" type="submit">Submit Feedback</button>
+        </form>
+        <p class="research-note">*Feedback may contribute to research evaluation for this university project.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>© 2026 CareerCoach AI</span>
+      <span>Project for MN5814: Emerging Technologies in Business | Royal Holloway, University of London</span>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('active');
+      menuToggle.setAttribute('aria-expanded', isOpen);
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    function scrollToTrySarah() {
+      document.querySelector('#try').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
